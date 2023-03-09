@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+
+
+.home h1{
+    color: red;
+    font-size: 25px;
+    
+}
+
+.home h1:hover{
+    color:rgba(255, 0, 0, 0.829);
+    cursor: pointer;
+    transition: 0.5s;
+}
