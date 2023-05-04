@@ -9,13 +9,11 @@ import HomeButton from "./Components/HomeButton";
 
 
 function App() {
-  return (
-
   
-    <Router>
-     
-        <HomeButton/>
-            <Container>
+  return (
+          <Router>
+            <HomeButton/>
+              <Container>
                 <Routes>
                     <Route exact path="/" element = {<Home/>}>
                     </Route>
@@ -26,14 +24,8 @@ function App() {
                     <Route exact path="/Contato" element = {<Contato/>}>
                     </Route>
                 </Routes>
-            </Container>
-
-          
-    </Router>
-    
-       
-    
-
-  )
-}
+              </Container> 
+          </Router>
+    )
+  }
 export default App;

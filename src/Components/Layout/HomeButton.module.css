@@ -1,21 +1,21 @@
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background-color: black;
-
 }
 
-
-
 .home h1{
-    color: red;
+    color:#e5e5e5;
     font-size: 25px;
+    width: 30px;
     
 }
 
 .home h1:hover{
-    color:rgba(255, 0, 0, 0.829);
+    color:#000000;
     cursor: pointer;
     transition: 0.5s;
 }
+
